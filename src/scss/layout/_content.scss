@@ -1,0 +1,118 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-size: .8rem;
+}
+
+.main-text {
+  color: #e9511d;
+  font-size: 2rem;
+  font-family: 'Bebas', 'Oswald', 'Helvetica', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.notice {
+  color: #444;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 2rem 5rem;
+}
+
+.packages .package {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 320px;
+}
+
+.package-text {
+  color: #e9511d;
+  font-size: 1.2rem;
+  font-family: 'Bebas', 'Oswald', 'Helvetica', sans-serif;
+  font-weight: normal;
+}
+
+package-feature {
+  text-align: left;
+}
+
+ul.package-feature > li {
+  font-size: .8rem;
+}
+
+.packages img {
+  opacity: .8;
+}
+
+.packages img:hover {
+  opacity: 1;
+}
+
+.course {
+  position: relative;
+}
+
+.btn-add {
+  background-color: #e9511d;
+  padding: .1rem 2rem;
+  border-radius: .5rem;
+  opacity: .8;
+  font-size: .8rem;
+  color: white;
+}
+
+.btn-delete {
+  position: absolute;
+  right: -20px;
+  background-color: #e9511d;
+  opacity: .8;
+  width: 20px;
+  height: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: .62rem;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btn-main {
+  background-color: #e9511d;
+  padding: .5rem 4rem;
+  border-radius: .5rem;
+  color: white;
+  font-size: 1rem;
+  opacity: .8;
+}
+
+.btn-delete span {
+  margin-top: -2px;
+}
+
+.btn-delete:hover,
+.btn-add:hover,
+.btn-main:hover {
+  opacity: 1;
+}
+
+.accomodation {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.overlay-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2)
+}
+
+.success-modal {
+  width: 60%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2rem 3rem 3rem;
+  margin-top: 30vh;
+}
